@@ -28,6 +28,9 @@ $ ./vendor/bin/sail artisan key:generate
 # migre as tabelas
 $ ./vendor/bin/sail artisan migrate
 
+# migre as tabelas do banco de dados de teste
+$ ./vendor/bin/sail artisan migrate --database=testing
+
 ```
 
 Após rodar os comandos acima, a aplicação estará rodando em http://localhost
